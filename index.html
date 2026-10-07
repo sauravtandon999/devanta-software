@@ -9,23 +9,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="Devanta Software Private Limited - Software, technology and digital solutions.">
+        content="Devanta Software Private Limited provides software development, IT staffing, manpower solutions, backend and full-stack developer training, and IT professional upskilling services. Based in Andheri East, Mumbai.">
 
     <meta name="keywords"
-        content="Devanta Software Private Limited, software company, software development, IT solutions, Mumbai, Andheri">
+        content="Devanta Software Private Limited, IT staffing company, manpower solutions, software development, backend development training, full stack development training, IT upskilling, developer training Mumbai, IT staffing India">
 
-    <meta name="author" content="Devanta Software Private Limited">
+    <meta name="author"
+        content="Devanta Software Private Limited">
 
-    <meta name="theme-color" content="#07111f">
+    <meta name="theme-color"
+        content="#07111f">
 
-    <title>Devanta Software Private Limited | Technology & Digital Solutions</title>
+    <meta property="og:title"
+        content="Devanta Software Private Limited">
+
+    <meta property="og:description"
+        content="Technology, IT Staffing, Manpower Solutions & Developer Upskilling">
+
+    <title>
+        Devanta Software Private Limited | Technology, IT Staffing & Training
+    </title>
 
 
     <style>
 
-        /* =========================================
-           RESET
-        ========================================= */
+        /* =========================================================
+           GLOBAL
+        ========================================================= */
 
         * {
             margin: 0;
@@ -38,9 +48,16 @@
         }
 
         body {
-            font-family: Inter, Arial, Helvetica, sans-serif;
-            background: #f7f9fc;
+            font-family:
+                Inter,
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Arial,
+                sans-serif;
+
             color: #111827;
+            background: #f7f9fc;
             line-height: 1.6;
             overflow-x: hidden;
         }
@@ -50,55 +67,57 @@
             color: inherit;
         }
 
-        img {
-            max-width: 100%;
-        }
-
         .container {
             width: 90%;
-            max-width: 1200px;
+            max-width: 1220px;
             margin: auto;
         }
 
 
-        /* =========================================
+        /* =========================================================
            TOP BAR
-        ========================================= */
+        ========================================================= */
 
         .topbar {
             background: #050b14;
-            color: #b9c4d3;
+            color: #b7c3d4;
             font-size: 13px;
             padding: 8px 0;
         }
 
         .topbar-inner {
             display: flex;
-            justify-content: space-between;
             align-items: center;
+            justify-content: space-between;
         }
 
         .topbar a {
-            color: #ffffff;
-            font-weight: 600;
+            color: white;
+            font-weight: 700;
         }
 
 
-        /* =========================================
+        /* =========================================================
            NAVBAR
-        ========================================= */
+        ========================================================= */
 
         header {
             position: sticky;
             top: 0;
             z-index: 999;
-            background: rgba(255,255,255,0.96);
+
+            background:
+                rgba(255,255,255,.96);
+
             backdrop-filter: blur(18px);
-            border-bottom: 1px solid #e8edf4;
+
+            border-bottom:
+                1px solid #e8edf4;
         }
 
         .navbar {
             height: 78px;
+
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -108,24 +127,37 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            font-size: 23px;
+
+            font-size: 22px;
             font-weight: 900;
-            letter-spacing: -0.8px;
+
+            letter-spacing: -.7px;
+
             color: #07111f;
         }
 
         .logo-mark {
             width: 40px;
             height: 40px;
+
             border-radius: 11px;
+
             display: flex;
-            justify-content: center;
             align-items: center;
-            background: linear-gradient(135deg,#2563eb,#06b6d4);
+            justify-content: center;
+
             color: white;
-            font-size: 19px;
-            font-weight: 900;
-            box-shadow: 0 8px 20px rgba(37,99,235,.25);
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #2563eb,
+                    #06b6d4
+                );
+
+            box-shadow:
+                0 8px 20px
+                rgba(37,99,235,.25);
         }
 
         .logo span {
@@ -133,16 +165,20 @@
         }
 
         .nav-links {
-            display: flex;
             list-style: none;
+
+            display: flex;
             align-items: center;
-            gap: 30px;
+
+            gap: 28px;
         }
 
         .nav-links a {
             color: #475467;
+
             font-size: 14px;
             font-weight: 700;
+
             transition: .3s;
         }
 
@@ -153,7 +189,9 @@
         .nav-contact {
             background: #111827;
             color: white !important;
+
             padding: 11px 18px;
+
             border-radius: 9px;
         }
 
@@ -163,56 +201,60 @@
 
         .menu-btn {
             display: none;
+
             font-size: 28px;
+
             cursor: pointer;
-            color: #111827;
         }
 
 
-        /* =========================================
+        /* =========================================================
            HERO
-        ========================================= */
+        ========================================================= */
 
         .hero {
             position: relative;
             overflow: hidden;
+
             min-height: 760px;
+
             display: flex;
             align-items: center;
+
             color: white;
+
             background:
-                radial-gradient(circle at 75% 25%, rgba(37,99,235,.28), transparent 30%),
-                radial-gradient(circle at 15% 80%, rgba(6,182,212,.12), transparent 25%),
-                linear-gradient(135deg,#06101e,#0b1729 55%,#07111f);
-        }
 
-        .hero::before {
-            content: "";
-            position: absolute;
-            width: 500px;
-            height: 500px;
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 50%;
-            right: -180px;
-            top: -120px;
-        }
+                radial-gradient(
+                    circle at 75% 20%,
+                    rgba(37,99,235,.30),
+                    transparent 30%
+                ),
 
-        .hero::after {
-            content: "";
-            position: absolute;
-            width: 350px;
-            height: 350px;
-            border: 1px solid rgba(255,255,255,.06);
-            border-radius: 50%;
-            right: 40px;
-            bottom: -200px;
+                radial-gradient(
+                    circle at 10% 80%,
+                    rgba(6,182,212,.13),
+                    transparent 25%
+                ),
+
+                linear-gradient(
+                    135deg,
+                    #06101e,
+                    #0b1729 55%,
+                    #07111f
+                );
         }
 
         .hero-grid {
             display: grid;
-            grid-template-columns: 1.15fr .85fr;
+
+            grid-template-columns:
+                1.15fr .85fr;
+
             gap: 70px;
+
             align-items: center;
+
             position: relative;
             z-index: 2;
         }
@@ -220,30 +262,55 @@
         .hero-badge {
             display: inline-flex;
             align-items: center;
+
             gap: 9px;
-            background: rgba(255,255,255,.08);
-            border: 1px solid rgba(255,255,255,.12);
-            padding: 8px 14px;
+
+            padding:
+                8px 14px;
+
             border-radius: 50px;
+
+            background:
+                rgba(255,255,255,.07);
+
+            border:
+                1px solid
+                rgba(255,255,255,.13);
+
             color: #dbeafe;
+
             font-size: 13px;
-            font-weight: 700;
+            font-weight: 800;
+
             margin-bottom: 25px;
         }
 
         .hero-badge span {
             width: 8px;
             height: 8px;
+
             border-radius: 50%;
+
             background: #22c55e;
-            box-shadow: 0 0 12px #22c55e;
+
+            box-shadow:
+                0 0 12px
+                #22c55e;
         }
 
         .hero h1 {
-            font-size: clamp(45px,6vw,76px);
-            line-height: 1.03;
+            font-size:
+                clamp(
+                    44px,
+                    6vw,
+                    74px
+                );
+
+            line-height: 1.04;
+
             letter-spacing: -3px;
-            margin-bottom: 25px;
+
+            margin-bottom: 24px;
         }
 
         .hero h1 .blue {
@@ -255,46 +322,74 @@
         }
 
         .hero-description {
-            max-width: 650px;
+            max-width: 680px;
+
             color: #b9c4d3;
+
             font-size: 18px;
+
             line-height: 1.8;
-            margin-bottom: 34px;
+
+            margin-bottom: 32px;
         }
 
         .hero-buttons {
             display: flex;
-            gap: 13px;
+
+            gap: 12px;
+
             flex-wrap: wrap;
         }
 
         .btn {
             display: inline-flex;
+
             align-items: center;
             justify-content: center;
+
             gap: 8px;
-            padding: 14px 21px;
+
+            padding:
+                14px 21px;
+
             border-radius: 10px;
-            font-weight: 800;
+
             font-size: 14px;
+
+            font-weight: 800;
+
             transition: .3s;
         }
 
         .btn-primary {
-            background: linear-gradient(135deg,#2563eb,#0ea5e9);
+            background:
+                linear-gradient(
+                    135deg,
+                    #2563eb,
+                    #0ea5e9
+                );
+
             color: white;
-            box-shadow: 0 12px 30px rgba(37,99,235,.25);
+
+            box-shadow:
+                0 12px 30px
+                rgba(37,99,235,.25);
         }
 
         .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 17px 35px rgba(37,99,235,.35);
+            transform:
+                translateY(-3px);
         }
 
         .btn-outline {
-            border: 1px solid rgba(255,255,255,.22);
+            border:
+                1px solid
+                rgba(255,255,255,.22);
+
             color: white;
-            background: rgba(255,255,255,.05);
+
+            background:
+                rgba(255,255,255,.05);
         }
 
         .btn-outline:hover {
@@ -303,105 +398,113 @@
         }
 
 
-        /* =========================================
+        /* =========================================================
            HERO CARD
-        ========================================= */
+        ========================================================= */
 
         .hero-card {
-            position: relative;
-            background: rgba(255,255,255,.06);
-            border: 1px solid rgba(255,255,255,.13);
-            backdrop-filter: blur(20px);
-            border-radius: 24px;
             padding: 30px;
-            box-shadow: 0 30px 80px rgba(0,0,0,.25);
+
+            border-radius: 24px;
+
+            background:
+                rgba(255,255,255,.06);
+
+            border:
+                1px solid
+                rgba(255,255,255,.13);
+
+            backdrop-filter:
+                blur(20px);
+
+            box-shadow:
+                0 30px 80px
+                rgba(0,0,0,.25);
         }
 
         .hero-card-top {
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            margin-bottom: 25px;
+            justify-content: space-between;
+
+            margin-bottom: 22px;
         }
 
         .hero-card-title {
             font-size: 15px;
             font-weight: 800;
-            color: #ffffff;
         }
 
         .status {
             font-size: 11px;
-            background: rgba(34,197,94,.12);
-            color: #86efac;
+
             padding: 6px 10px;
+
             border-radius: 20px;
+
+            color: #86efac;
+
+            background:
+                rgba(34,197,94,.12);
         }
 
-        .solution-box {
-            background: rgba(255,255,255,.06);
-            border: 1px solid rgba(255,255,255,.08);
-            padding: 18px;
-            border-radius: 15px;
-            margin-bottom: 12px;
+        .solution {
+            padding: 17px;
+
+            border-radius: 14px;
+
+            background:
+                rgba(255,255,255,.05);
+
+            border:
+                1px solid
+                rgba(255,255,255,.08);
+
+            margin-bottom: 11px;
         }
 
-        .solution-box strong {
+        .solution strong {
             display: block;
-            margin-bottom: 4px;
+
             color: white;
+
+            margin-bottom: 3px;
         }
 
-        .solution-box small {
+        .solution span {
             color: #9caec4;
-        }
 
-        .hero-card-footer {
-            display: flex;
-            gap: 10px;
-            margin-top: 22px;
-        }
-
-        .mini-stat {
-            flex: 1;
-            padding: 15px;
-            background: rgba(255,255,255,.05);
-            border-radius: 12px;
-            text-align: center;
-        }
-
-        .mini-stat strong {
-            display: block;
-            font-size: 20px;
-            color: white;
-        }
-
-        .mini-stat span {
-            font-size: 11px;
-            color: #9caec4;
+            font-size: 12px;
         }
 
 
-        /* =========================================
-           TRUST BAR
-        ========================================= */
+        /* =========================================================
+           TRUST
+        ========================================================= */
 
         .trust {
             background: white;
-            border-bottom: 1px solid #edf0f5;
+
+            border-bottom:
+                1px solid #edf0f5;
         }
 
         .trust-grid {
             min-height: 105px;
+
             display: grid;
-            grid-template-columns: repeat(4,1fr);
+
+            grid-template-columns:
+                repeat(4,1fr);
+
             align-items: center;
-            gap: 20px;
         }
 
         .trust-item {
             text-align: center;
-            border-right: 1px solid #e8edf4;
+
+            border-right:
+                1px solid #e8edf4;
         }
 
         .trust-item:last-child {
@@ -410,61 +513,77 @@
 
         .trust-item strong {
             display: block;
-            font-size: 19px;
-            color: #111827;
+
+            font-size: 18px;
         }
 
         .trust-item span {
-            font-size: 12px;
             color: #667085;
+
+            font-size: 12px;
         }
 
 
-        /* =========================================
+        /* =========================================================
            COMMON
-        ========================================= */
+        ========================================================= */
 
         section {
             padding: 105px 0;
         }
 
-        .section-label {
-            display: inline-block;
-            color: #2563eb;
-            text-transform: uppercase;
-            letter-spacing: 1.8px;
-            font-size: 12px;
-            font-weight: 900;
-            margin-bottom: 12px;
-        }
-
         .section-heading {
-            max-width: 700px;
+            max-width: 760px;
+
             margin-bottom: 55px;
         }
 
         .section-heading.center {
             margin-left: auto;
             margin-right: auto;
+
             text-align: center;
         }
 
+        .section-label {
+            color: #2563eb;
+
+            text-transform: uppercase;
+
+            letter-spacing: 1.8px;
+
+            font-size: 12px;
+
+            font-weight: 900;
+
+            margin-bottom: 12px;
+        }
+
         .section-heading h2 {
-            font-size: clamp(34px,4vw,48px);
+            font-size:
+                clamp(
+                    34px,
+                    4vw,
+                    48px
+                );
+
             line-height: 1.1;
+
             letter-spacing: -1.5px;
+
             margin-bottom: 17px;
         }
 
         .section-heading p {
             color: #667085;
+
             font-size: 17px;
         }
 
 
-        /* =========================================
+        /* =========================================================
            ABOUT
-        ========================================= */
+        ========================================================= */
 
         .about {
             background: white;
@@ -472,110 +591,130 @@
 
         .about-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 75px;
+
+            grid-template-columns:
+                1fr 1fr;
+
+            gap: 70px;
+
             align-items: center;
         }
 
         .about-text p {
             color: #667085;
+
             font-size: 16px;
+
             margin-bottom: 17px;
         }
 
         .about-list {
             list-style: none;
+
             margin-top: 25px;
         }
 
         .about-list li {
             margin-bottom: 12px;
+
             font-weight: 700;
+
             color: #344054;
         }
 
         .about-list li::before {
             content: "✓";
+
             display: inline-flex;
-            justify-content: center;
+
             align-items: center;
+            justify-content: center;
+
             width: 23px;
             height: 23px;
-            background: #e8f1ff;
-            color: #2563eb;
-            border-radius: 50%;
+
             margin-right: 10px;
-            font-size: 12px;
-        }
 
-        .about-visual {
-            position: relative;
-            min-height: 390px;
-            border-radius: 25px;
-            overflow: hidden;
-            background:
-                linear-gradient(135deg,rgba(37,99,235,.9),rgba(6,182,212,.8)),
-                #2563eb;
-            padding: 35px;
-            color: white;
-        }
-
-        .about-visual::before {
-            content: "";
-            position: absolute;
-            width: 250px;
-            height: 250px;
-            border: 1px solid rgba(255,255,255,.2);
             border-radius: 50%;
-            right: -70px;
-            top: -70px;
+
+            background: #e8f1ff;
+
+            color: #2563eb;
         }
 
-        .about-visual-content {
-            position: relative;
-            z-index: 2;
+        .about-card {
+            padding: 40px;
+
+            min-height: 400px;
+
+            border-radius: 25px;
+
+            color: white;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #2563eb,
+                    #06b6d4
+                );
+
+            box-shadow:
+                0 25px 60px
+                rgba(37,99,235,.18);
         }
 
-        .about-visual h3 {
-            font-size: 32px;
-            max-width: 380px;
+        .about-card h3 {
+            font-size: 33px;
+
             line-height: 1.2;
-            margin-bottom: 20px;
+
+            margin-bottom: 18px;
         }
 
-        .about-visual p {
-            color: #dff7ff;
-            max-width: 400px;
+        .about-card p {
+            color: #e0f2fe;
+
+            margin-bottom: 25px;
         }
 
-        .visual-grid {
+        .about-mini-grid {
             display: grid;
-            grid-template-columns: repeat(2,1fr);
+
+            grid-template-columns:
+                repeat(2,1fr);
+
             gap: 12px;
-            margin-top: 40px;
         }
 
-        .visual-box {
-            background: rgba(255,255,255,.12);
-            border: 1px solid rgba(255,255,255,.15);
-            padding: 16px;
+        .about-mini {
+            padding: 17px;
+
             border-radius: 13px;
+
+            background:
+                rgba(255,255,255,.12);
+
+            border:
+                1px solid
+                rgba(255,255,255,.14);
         }
 
-        .visual-box strong {
+        .about-mini strong {
             display: block;
-            font-size: 19px;
+
+            font-size: 20px;
         }
 
-        .visual-box span {
-            font-size: 11px;
+        .about-mini span {
             color: #dff7ff;
+
+            font-size: 11px;
         }
 
 
-        /* =========================================
+        /* =========================================================
            SERVICES
-        ========================================= */
+        ========================================================= */
 
         .services {
             background: #f6f8fb;
@@ -583,235 +722,421 @@
 
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(3,1fr);
+
+            grid-template-columns:
+                repeat(3,1fr);
+
             gap: 20px;
         }
 
         .service-card {
-            background: white;
-            border: 1px solid #e7ebf2;
-            padding: 30px;
-            border-radius: 18px;
-            transition: .35s;
             position: relative;
-            overflow: hidden;
-        }
 
-        .service-card::after {
-            content: "";
-            position: absolute;
-            width: 100px;
-            height: 100px;
-            background: #eff6ff;
-            border-radius: 50%;
-            right: -50px;
-            top: -50px;
+            padding: 30px;
+
+            background: white;
+
+            border:
+                1px solid #e7ebf2;
+
+            border-radius: 18px;
+
             transition: .35s;
         }
 
         .service-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 22px 50px rgba(15,23,42,.09);
-            border-color: #c8dbff;
-        }
+            transform:
+                translateY(-7px);
 
-        .service-card:hover::after {
-            transform: scale(1.4);
+            border-color:
+                #c8dbff;
+
+            box-shadow:
+                0 22px 50px
+                rgba(15,23,42,.08);
         }
 
         .service-icon {
-            position: relative;
-            z-index: 2;
-            width: 54px;
-            height: 54px;
-            border-radius: 14px;
-            background: #edf4ff;
+            width: 55px;
+            height: 55px;
+
             display: flex;
+
             align-items: center;
             justify-content: center;
+
+            border-radius: 14px;
+
+            background: #edf4ff;
+
             font-size: 24px;
-            margin-bottom: 22px;
+
+            margin-bottom: 21px;
         }
 
         .service-card h3 {
-            position: relative;
-            z-index: 2;
             font-size: 19px;
-            margin-bottom: 10px;
+
+            margin-bottom: 9px;
         }
 
         .service-card p {
-            position: relative;
-            z-index: 2;
             color: #667085;
+
             font-size: 14px;
         }
 
 
-        /* =========================================
+        /* =========================================================
+           STAFFING
+        ========================================================= */
+
+        .staffing {
+            background: white;
+        }
+
+        .staffing-grid {
+            display: grid;
+
+            grid-template-columns:
+                1fr 1fr;
+
+            gap: 25px;
+        }
+
+        .staffing-card {
+            padding: 35px;
+
+            border-radius: 20px;
+
+            border:
+                1px solid #e7ebf2;
+
+            background:
+                linear-gradient(
+                    145deg,
+                    #ffffff,
+                    #f8fbff
+                );
+        }
+
+        .staffing-card.highlight {
+            color: white;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #07111f,
+                    #14243a
+                );
+        }
+
+        .staffing-card h3 {
+            font-size: 27px;
+
+            margin-bottom: 13px;
+        }
+
+        .staffing-card p {
+            color: #667085;
+
+            margin-bottom: 22px;
+        }
+
+        .staffing-card.highlight p {
+            color: #aebed1;
+        }
+
+        .staffing-list {
+            list-style: none;
+        }
+
+        .staffing-list li {
+            margin-bottom: 11px;
+
+            font-size: 14px;
+
+            font-weight: 700;
+        }
+
+        .staffing-list li::before {
+            content: "✓";
+
+            color: #2563eb;
+
+            margin-right: 9px;
+        }
+
+
+        /* =========================================================
+           GLOBAL REACH
+        ========================================================= */
+
+        .reach {
+            background:
+                linear-gradient(
+                    135deg,
+                    #f7fbff,
+                    #eef5ff
+                );
+        }
+
+        .country-grid {
+            display: flex;
+
+            flex-wrap: wrap;
+
+            justify-content: center;
+
+            gap: 12px;
+
+            max-width: 950px;
+
+            margin: auto;
+        }
+
+        .country {
+            padding:
+                13px 19px;
+
+            border-radius: 50px;
+
+            background: white;
+
+            border:
+                1px solid #dfe7f2;
+
+            font-size: 14px;
+
+            font-weight: 800;
+
+            color: #344054;
+
+            transition: .3s;
+        }
+
+        .country:hover {
+            color: #2563eb;
+
+            border-color: #2563eb;
+
+            transform:
+                translateY(-3px);
+        }
+
+        .reach-note {
+            text-align: center;
+
+            max-width: 760px;
+
+            margin: 30px auto 0;
+
+            color: #667085;
+
+            font-size: 15px;
+        }
+
+
+        /* =========================================================
+           TRAINING
+        ========================================================= */
+
+        .training {
+            background: #07111f;
+
+            color: white;
+        }
+
+        .training .section-heading p {
+            color: #9caec4;
+        }
+
+        .training-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(3,1fr);
+
+            gap: 20px;
+        }
+
+        .training-card {
+            padding: 30px;
+
+            border-radius: 18px;
+
+            background:
+                rgba(255,255,255,.045);
+
+            border:
+                1px solid
+                rgba(255,255,255,.1);
+        }
+
+        .training-icon {
+            font-size: 30px;
+
+            margin-bottom: 18px;
+        }
+
+        .training-card h3 {
+            font-size: 20px;
+
+            margin-bottom: 10px;
+        }
+
+        .training-card p {
+            color: #9caec4;
+
+            font-size: 14px;
+        }
+
+
+        /* =========================================================
+           TRAINING FORMAT
+        ========================================================= */
+
+        .formats {
+            background: white;
+        }
+
+        .format-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(4,1fr);
+
+            gap: 18px;
+        }
+
+        .format-card {
+            text-align: center;
+
+            padding: 28px 18px;
+
+            border:
+                1px solid #e7ebf2;
+
+            border-radius: 16px;
+        }
+
+        .format-card strong {
+            display: block;
+
+            font-size: 18px;
+
+            margin-bottom: 7px;
+        }
+
+        .format-card p {
+            color: #667085;
+
+            font-size: 13px;
+        }
+
+
+        /* =========================================================
            TECHNOLOGY
-        ========================================= */
+        ========================================================= */
 
         .technology {
-            background: #ffffff;
+            background: #f6f8fb;
         }
 
         .tech-grid {
             display: flex;
+
             flex-wrap: wrap;
+
             justify-content: center;
+
             gap: 12px;
         }
 
         .tech {
-            border: 1px solid #e4e8ef;
-            background: #fff;
+            padding:
+                13px 20px;
+
             border-radius: 50px;
-            padding: 13px 20px;
-            font-size: 14px;
-            font-weight: 800;
+
+            background: white;
+
+            border:
+                1px solid #e1e7ef;
+
             color: #344054;
+
+            font-size: 14px;
+
+            font-weight: 800;
+
             transition: .3s;
         }
 
         .tech:hover {
-            border-color: #2563eb;
             color: #2563eb;
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(37,99,235,.08);
+
+            border-color:
+                #2563eb;
+
+            transform:
+                translateY(-3px);
         }
 
 
-        /* =========================================
+        /* =========================================================
            PROCESS
-        ========================================= */
+        ========================================================= */
 
         .process {
-            background: #07111f;
-            color: white;
-        }
-
-        .process .section-heading p {
-            color: #9caec4;
+            background: white;
         }
 
         .process-grid {
             display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap: 20px;
+
+            grid-template-columns:
+                repeat(4,1fr);
+
+            gap: 18px;
         }
 
         .process-card {
-            border: 1px solid rgba(255,255,255,.1);
-            background: rgba(255,255,255,.04);
-            border-radius: 17px;
             padding: 27px;
+
+            border-radius: 17px;
+
+            background:
+                #f8fafc;
+
+            border:
+                1px solid #e7ebf2;
         }
 
         .process-number {
-            font-size: 13px;
-            color: #60a5fa;
+            color: #2563eb;
+
+            font-size: 12px;
+
             font-weight: 900;
-            margin-bottom: 30px;
+
+            margin-bottom: 25px;
         }
 
         .process-card h3 {
-            margin-bottom: 10px;
+            margin-bottom: 9px;
         }
 
         .process-card p {
-            color: #9caec4;
+            color: #667085;
+
             font-size: 14px;
         }
 
 
-        /* =========================================
-           WHY US
-        ========================================= */
-
-        .why {
-            background: #f6f8fb;
-        }
-
-        .why-grid {
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap: 18px;
-        }
-
-        .why-card {
-            background: white;
-            border: 1px solid #e7ebf2;
-            padding: 27px 20px;
-            border-radius: 16px;
-            text-align: center;
-        }
-
-        .why-icon {
-            font-size: 27px;
-            margin-bottom: 15px;
-        }
-
-        .why-card h3 {
-            font-size: 17px;
-            margin-bottom: 8px;
-        }
-
-        .why-card p {
-            color: #667085;
-            font-size: 13px;
-        }
-
-
-        /* =========================================
-           CTA
-        ========================================= */
-
-        .cta {
-            padding: 90px 0;
-            background: white;
-        }
-
-        .cta-box {
-            position: relative;
-            overflow: hidden;
-            background:
-                radial-gradient(circle at 80% 20%,rgba(96,165,250,.25),transparent 25%),
-                linear-gradient(135deg,#111827,#1d4ed8);
-            color: white;
-            border-radius: 25px;
-            padding: 75px 40px;
-            text-align: center;
-        }
-
-        .cta-box h2 {
-            font-size: clamp(32px,4vw,48px);
-            line-height: 1.1;
-            margin-bottom: 17px;
-        }
-
-        .cta-box p {
-            max-width: 650px;
-            margin: auto auto 28px;
-            color: #dbeafe;
-        }
-
-        .cta-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            flex-wrap: wrap;
-        }
-
-        .cta-white {
-            background: white;
-            color: #1d4ed8;
-        }
-
-
-        /* =========================================
+        /* =========================================================
            CONTACT
-        ========================================= */
+        ========================================================= */
 
         .contact {
             background: #f6f8fb;
@@ -819,42 +1144,56 @@
 
         .contact-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+
+            grid-template-columns:
+                1fr 1fr;
+
             gap: 25px;
         }
 
         .contact-card {
-            background: white;
-            border: 1px solid #e7ebf2;
-            border-radius: 18px;
             padding: 35px;
+
+            background: white;
+
+            border:
+                1px solid #e7ebf2;
+
+            border-radius: 18px;
         }
 
         .contact-item {
             display: flex;
+
             gap: 15px;
-            align-items: flex-start;
+
             margin-bottom: 25px;
         }
 
         .contact-icon {
             min-width: 45px;
             height: 45px;
-            border-radius: 11px;
-            background: #edf4ff;
+
             display: flex;
+
             align-items: center;
             justify-content: center;
+
+            border-radius: 11px;
+
+            background: #edf4ff;
         }
 
         .contact-item strong {
             display: block;
+
             margin-bottom: 3px;
         }
 
         .contact-item span,
         .contact-item a {
             color: #667085;
+
             font-size: 14px;
         }
 
@@ -863,44 +1202,62 @@
         }
 
         .contact-action {
-            background: #07111f;
-            color: white;
-            border-radius: 18px;
             padding: 35px;
+
+            border-radius: 18px;
+
+            color: white;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #07111f,
+                    #17304e
+                );
         }
 
         .contact-action h3 {
-            font-size: 27px;
+            font-size: 29px;
+
             margin-bottom: 12px;
         }
 
         .contact-action p {
             color: #9caec4;
+
             margin-bottom: 25px;
         }
 
 
-        /* =========================================
+        /* =========================================================
            FOOTER
-        ========================================= */
+        ========================================================= */
 
         footer {
             background: #050b14;
+
             color: white;
+
             padding: 55px 0 25px;
         }
 
         .footer-grid {
             display: grid;
-            grid-template-columns: 2fr 1fr 1fr;
+
+            grid-template-columns:
+                2fr 1fr 1fr;
+
             gap: 50px;
+
             padding-bottom: 40px;
         }
 
         .footer-logo {
             font-size: 23px;
+
             font-weight: 900;
-            margin-bottom: 13px;
+
+            margin-bottom: 12px;
         }
 
         .footer-logo span {
@@ -909,6 +1266,7 @@
 
         footer p {
             color: #8493a8;
+
             font-size: 14px;
         }
 
@@ -926,6 +1284,7 @@
 
         .footer-links a {
             color: #8493a8;
+
             font-size: 14px;
         }
 
@@ -934,90 +1293,107 @@
         }
 
         .copyright {
-            border-top: 1px solid #1d2939;
+            border-top:
+                1px solid #1d2939;
+
             padding-top: 22px;
+
             text-align: center;
+
             color: #667085;
+
             font-size: 12px;
         }
 
 
-        /* =========================================
-           FLOATING WHATSAPP
-        ========================================= */
+        /* =========================================================
+           WHATSAPP
+        ========================================================= */
 
         .whatsapp {
             position: fixed;
+
             right: 22px;
             bottom: 22px;
+
             z-index: 1000;
+
             width: 58px;
             height: 58px;
-            border-radius: 50%;
-            background: #25D366;
-            color: white;
+
             display: flex;
+
             align-items: center;
             justify-content: center;
-            font-size: 28px;
-            box-shadow: 0 10px 30px rgba(0,0,0,.2);
+
+            border-radius: 50%;
+
+            background: #25D366;
+
+            color: white;
+
+            font-size: 27px;
+
+            box-shadow:
+                0 10px 30px
+                rgba(0,0,0,.22);
+
             transition: .3s;
         }
 
         .whatsapp:hover {
-            transform: scale(1.08);
+            transform:
+                scale(1.08);
         }
 
 
-        /* =========================================
+        /* =========================================================
            MOBILE
-        ========================================= */
+        ========================================================= */
 
         @media(max-width:950px) {
 
-            .hero-grid {
+            .hero-grid,
+            .about-grid,
+            .staffing-grid,
+            .contact-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .services-grid,
+            .training-grid {
+                grid-template-columns:
+                    repeat(2,1fr);
+            }
+
+            .process-grid {
+                grid-template-columns:
+                    repeat(2,1fr);
+            }
+
+            .format-grid {
+                grid-template-columns:
+                    repeat(2,1fr);
             }
 
             .hero {
                 min-height: auto;
-                padding: 90px 0;
+
+                padding:
+                    90px 0;
             }
 
-            .hero-card {
-                max-width: 600px;
-            }
-
-            .services-grid {
-                grid-template-columns: repeat(2,1fr);
-            }
-
-            .process-grid {
-                grid-template-columns: repeat(2,1fr);
-            }
-
-            .why-grid {
-                grid-template-columns: repeat(2,1fr);
-            }
-
-            .about-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .contact-grid {
-                grid-template-columns: 1fr;
-            }
         }
 
 
         @media(max-width:700px) {
 
-            .topbar-inner {
-                justify-content: center;
-            }
-
             .topbar-left {
                 display: none;
+            }
+
+            .topbar-inner {
+                justify-content: center;
             }
 
             .navbar {
@@ -1026,16 +1402,27 @@
 
             .nav-links {
                 display: none;
+
                 position: absolute;
+
                 top: 70px;
                 left: 0;
+
                 width: 100%;
+
                 background: white;
+
                 flex-direction: column;
+
                 align-items: stretch;
-                padding: 20px;
+
                 gap: 5px;
-                box-shadow: 0 15px 30px rgba(0,0,0,.08);
+
+                padding: 20px;
+
+                box-shadow:
+                    0 15px 30px
+                    rgba(0,0,0,.08);
             }
 
             .nav-links.active {
@@ -1044,7 +1431,8 @@
 
             .nav-links a {
                 display: block;
-                padding: 13px;
+
+                padding: 12px;
             }
 
             .menu-btn {
@@ -1052,7 +1440,8 @@
             }
 
             .hero h1 {
-                font-size: 45px;
+                font-size: 44px;
+
                 letter-spacing: -2px;
             }
 
@@ -1065,7 +1454,9 @@
             }
 
             .trust-grid {
-                grid-template-columns: repeat(2,1fr);
+                grid-template-columns:
+                    repeat(2,1fr);
+
                 padding: 20px 0;
             }
 
@@ -1074,32 +1465,30 @@
             }
 
             .services-grid,
+            .training-grid,
             .process-grid,
-            .why-grid {
+            .format-grid {
                 grid-template-columns: 1fr;
             }
 
             .footer-grid {
                 grid-template-columns: 1fr;
+
                 gap: 30px;
             }
 
-            .cta-box {
-                padding: 55px 25px;
-            }
-
-            .hero-card {
-                padding: 22px;
-            }
-
-            .about-visual {
-                min-height: 350px;
+            .about-card,
+            .staffing-card,
+            .contact-card,
+            .contact-action {
+                padding: 27px;
             }
 
             .whatsapp {
                 right: 17px;
                 bottom: 17px;
             }
+
         }
 
     </style>
@@ -1110,308 +1499,696 @@
 <body>
 
 
-    <!-- TOP BAR -->
+<!-- =========================================================
+     TOP BAR
+========================================================= -->
 
-    <div class="topbar">
+<div class="topbar">
 
-        <div class="container topbar-inner">
+    <div class="container topbar-inner">
 
-            <div class="topbar-left">
-                Technology • Software • Digital Solutions
+        <div class="topbar-left">
+            Technology • IT Staffing • Training • Digital Solutions
+        </div>
+
+        <div>
+            Call:
+            <a href="tel:+918109070293">
+                +91 81090 70293
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header>
+
+    <div class="container navbar">
+
+        <a href="#home" class="logo">
+
+            <div class="logo-mark">
+                D
             </div>
 
-            <div>
-                Call us:
-                <a href="tel:+918109070293">
-                    +91 81090 70293
+            Devanta<span>Software</span>
+
+        </a>
+
+
+        <div
+            class="menu-btn"
+            onclick="toggleMenu()">
+
+            ☰
+
+        </div>
+
+
+        <ul
+            class="nav-links"
+            id="navLinks">
+
+            <li>
+                <a href="#home">
+                    Home
                 </a>
+            </li>
+
+            <li>
+                <a href="#about">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="#services">
+                    Services
+                </a>
+            </li>
+
+            <li>
+                <a href="#staffing">
+                    IT Staffing
+                </a>
+            </li>
+
+            <li>
+                <a href="#training">
+                    Training
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact"
+                   class="nav-contact">
+
+                    Contact Us
+
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section
+    class="hero"
+    id="home">
+
+    <div class="container hero-grid">
+
+
+        <div>
+
+            <div class="hero-badge">
+
+                <span></span>
+
+                Technology • Talent • Transformation
+
+            </div>
+
+
+            <h1>
+
+                Building
+                <span class="blue">
+                    Technology
+                </span>
+
+                &
+
+                <span class="cyan">
+                    Talent
+                </span>
+
+                for the Digital World.
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Devanta Software Private Limited delivers
+                technology solutions, IT staffing and manpower
+                services, developer training and professional
+                upskilling programs for businesses and
+                technology professionals.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#services"
+                    class="btn btn-primary">
+
+                    Explore Our Services →
+
+                </a>
+
+
+                <a
+                    href="tel:+918109070293"
+                    class="btn btn-outline">
+
+                    📞 +91 81090 70293
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="hero-card-top">
+
+                <div class="hero-card-title">
+
+                    Devanta Software
+
+                </div>
+
+                <div class="status">
+
+                    ● Business Enquiries
+
+                </div>
+
+            </div>
+
+
+            <div class="solution">
+
+                <strong>
+                    Software Development
+                </strong>
+
+                <span>
+                    Backend, Full Stack & Digital Solutions
+                </span>
+
+            </div>
+
+
+            <div class="solution">
+
+                <strong>
+                    IT Staffing & Manpower
+                </strong>
+
+                <span>
+                    Technology talent and staffing support
+                </span>
+
+            </div>
+
+
+            <div class="solution">
+
+                <strong>
+                    Developer Training
+                </strong>
+
+                <span>
+                    Backend & Full Stack development programs
+                </span>
+
+            </div>
+
+
+            <div class="solution">
+
+                <strong>
+                    Professional Upskilling
+                </strong>
+
+                <span>
+                    One-to-one and group learning programs
+                </span>
+
             </div>
 
         </div>
 
     </div>
 
-
-    <!-- NAVBAR -->
-
-    <header>
-
-        <div class="container navbar">
-
-            <a href="#home" class="logo">
-
-                <div class="logo-mark">
-                    D
-                </div>
-
-                Devanta<span>Software</span>
-
-            </a>
+</section>
 
 
-            <div class="menu-btn" onclick="toggleMenu()">
-                ☰
+<!-- =========================================================
+     TRUST
+========================================================= -->
+
+<div class="trust">
+
+    <div class="container trust-grid">
+
+        <div class="trust-item">
+
+            <strong>
+                Technology
+            </strong>
+
+            <span>
+                Solutions
+            </span>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <strong>
+                IT Staffing
+            </strong>
+
+            <span>
+                Talent Solutions
+            </span>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <strong>
+                Developer
+            </strong>
+
+            <span>
+                Training
+            </span>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <strong>
+                Professional
+            </strong>
+
+            <span>
+                Upskilling
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+
+<section
+    class="about"
+    id="about">
+
+    <div class="container about-grid">
+
+
+        <div>
+
+            <div class="section-label">
+                About Devanta
+            </div>
+
+            <div class="section-heading">
+
+                <h2>
+                    Technology, talent and learning under one roof.
+                </h2>
+
             </div>
 
 
-            <ul class="nav-links" id="navLinks">
+            <div class="about-text">
+
+                <p>
+                    Devanta Software Private Limited is a
+                    technology-focused organization providing
+                    software development, IT staffing,
+                    manpower solutions and professional
+                    technology training.
+                </p>
+
+                <p>
+                    We work with organizations looking for
+                    technology talent and digital capabilities,
+                    while also helping software professionals
+                    strengthen their practical development skills.
+                </p>
+
+                <p>
+                    Our focus is on connecting business
+                    requirements with the right technology,
+                    people and knowledge.
+                </p>
+
+            </div>
+
+
+            <ul class="about-list">
 
                 <li>
-                    <a href="#home">Home</a>
+                    Software & Digital Solutions
                 </li>
 
                 <li>
-                    <a href="#about">About</a>
+                    IT Staffing & Manpower Support
                 </li>
 
                 <li>
-                    <a href="#services">Services</a>
+                    Backend & Full Stack Development Training
                 </li>
 
                 <li>
-                    <a href="#technology">Technology</a>
-                </li>
-
-                <li>
-                    <a href="#process">Process</a>
-                </li>
-
-                <li>
-                    <a href="#contact" class="nav-contact">
-                        Contact Us
-                    </a>
+                    Professional IT Upskilling
                 </li>
 
             </ul>
 
         </div>
 
-    </header>
+
+        <div class="about-card">
+
+            <h3>
+                Build. Staff. Train. Grow.
+            </h3>
+
+            <p>
+                Whether you are an organization looking for
+                technology professionals or an IT professional
+                looking to strengthen your skills, Devanta
+                provides solutions designed around your
+                requirements.
+            </p>
 
 
-    <!-- HERO -->
+            <div class="about-mini-grid">
 
-    <section class="hero" id="home">
-
-        <div class="container hero-grid">
-
-
-            <div>
-
-                <div class="hero-badge">
-                    <span></span>
-                    Building Digital Solutions
-                </div>
-
-
-                <h1>
-
-                    Technology that
-                    <span class="blue">moves</span>
-                    your business
-                    <span class="cyan">forward.</span>
-
-                </h1>
-
-
-                <p class="hero-description">
-
-                    Devanta Software Private Limited delivers modern
-                    software, technology and digital solutions designed
-                    to help businesses innovate, scale and grow.
-
-                </p>
-
-
-                <div class="hero-buttons">
-
-                    <a href="#services" class="btn btn-primary">
-                        Explore Services →
-                    </a>
-
-                    <a href="tel:+918109070293"
-                       class="btn btn-outline">
-                        📞 Call +91 81090 70293
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <div class="hero-card">
-
-                <div class="hero-card-top">
-
-                    <div class="hero-card-title">
-                        Devanta Digital Solutions
-                    </div>
-
-                    <div class="status">
-                        ● Available
-                    </div>
-
-                </div>
-
-
-                <div class="solution-box">
+                <div class="about-mini">
 
                     <strong>
-                        Software Development
+                        Software
                     </strong>
 
-                    <small>
-                        Scalable & business-focused applications
-                    </small>
+                    <span>
+                        Development
+                    </span>
 
                 </div>
 
 
-                <div class="solution-box">
+                <div class="about-mini">
 
                     <strong>
-                        Web & Application Solutions
+                        IT
                     </strong>
 
-                    <small>
-                        Modern digital experiences for your customers
-                    </small>
+                    <span>
+                        Staffing
+                    </span>
 
                 </div>
 
 
-                <div class="solution-box">
+                <div class="about-mini">
 
                     <strong>
-                        Cloud & Technology
+                        Backend
                     </strong>
 
-                    <small>
-                        Modern infrastructure and technology solutions
-                    </small>
+                    <span>
+                        Development Training
+                    </span>
 
                 </div>
 
 
-                <div class="hero-card-footer">
+                <div class="about-mini">
 
-                    <div class="mini-stat">
+                    <strong>
+                        Full Stack
+                    </strong>
 
-                        <strong>01</strong>
-                        <span>Technology</span>
-
-                    </div>
-
-                    <div class="mini-stat">
-
-                        <strong>02</strong>
-                        <span>Innovation</span>
-
-                    </div>
-
-                    <div class="mini-stat">
-
-                        <strong>03</strong>
-                        <span>Growth</span>
-
-                    </div>
+                    <span>
+                        Developer Upskilling
+                    </span>
 
                 </div>
 
-            </div>
-
-
-        </div>
-
-    </section>
-
-
-    <!-- TRUST -->
-
-    <div class="trust">
-
-        <div class="container trust-grid">
-
-            <div class="trust-item">
-                <strong>Software</strong>
-                <span>Development</span>
-            </div>
-
-            <div class="trust-item">
-                <strong>Digital</strong>
-                <span>Solutions</span>
-            </div>
-
-            <div class="trust-item">
-                <strong>Modern</strong>
-                <span>Technology</span>
-            </div>
-
-            <div class="trust-item">
-                <strong>Business</strong>
-                <span>Focused</span>
             </div>
 
         </div>
 
     </div>
 
-
-    <!-- ABOUT -->
-
-    <section class="about" id="about">
-
-        <div class="container about-grid">
+</section>
 
 
-            <div>
+<!-- =========================================================
+     SERVICES
+========================================================= -->
 
-                <div class="section-label">
-                    About Devanta
+<section
+    class="services"
+    id="services">
+
+    <div class="container">
+
+
+        <div class="section-heading center">
+
+            <div class="section-label">
+                Our Services
+            </div>
+
+            <h2>
+                Technology services designed around real requirements.
+            </h2>
+
+            <p>
+                From software engineering to technology talent
+                and professional development, our services
+                support different stages of the digital journey.
+            </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    💻
                 </div>
 
-                <div class="section-heading">
+                <h3>
+                    Software Development
+                </h3>
 
-                    <h2>
-                        Turning technology into business value.
-                    </h2>
+                <p>
+                    Custom software and application development
+                    with a focus on maintainability, scalability
+                    and business requirements.
+                </p>
 
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🌐
                 </div>
 
+                <h3>
+                    Web Development
+                </h3>
 
-                <div class="about-text">
+                <p>
+                    Modern websites and web applications
+                    designed for performance, usability and
+                    responsive experiences.
+                </p>
 
-                    <p>
-                        Devanta Software Private Limited is focused on
-                        delivering practical and modern technology
-                        solutions for businesses.
-                    </p>
+            </div>
 
-                    <p>
-                        We combine software engineering, modern technology
-                        and business understanding to build solutions that
-                        are reliable, scalable and easy to use.
-                    </p>
 
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ⚙️
                 </div>
 
+                <h3>
+                    Backend Development
+                </h3>
 
-                <ul class="about-list">
+                <p>
+                    Backend engineering, APIs, databases,
+                    integrations and scalable server-side
+                    application development.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🧩
+                </div>
+
+                <h3>
+                    Full Stack Development
+                </h3>
+
+                <p>
+                    End-to-end application development combining
+                    frontend, backend, APIs, databases and
+                    deployment technologies.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ☁️
+                </div>
+
+                <h3>
+                    Cloud & Digital Solutions
+                </h3>
+
+                <p>
+                    Technology solutions designed with modern
+                    cloud, deployment and digital architecture
+                    practices.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🔧
+                </div>
+
+                <h3>
+                    Technology Consulting
+                </h3>
+
+                <p>
+                    Practical technology guidance for organizations
+                    planning software projects, modernization
+                    and technology capability development.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     IT STAFFING
+========================================================= -->
+
+<section
+    class="staffing"
+    id="staffing">
+
+    <div class="container">
+
+
+        <div class="section-heading center">
+
+            <div class="section-label">
+                IT Staffing & Manpower
+            </div>
+
+            <h2>
+                Connecting organizations with technology talent.
+            </h2>
+
+            <p>
+                We support organizations with technology manpower
+                and IT staffing requirements based on their
+                business and project needs.
+            </p>
+
+        </div>
+
+
+        <div class="staffing-grid">
+
+
+            <div class="staffing-card">
+
+                <h3>
+                    IT Staffing Solutions
+                </h3>
+
+                <p>
+                    Organizations can engage with us for
+                    technology staffing requirements across
+                    different project and development needs.
+                </p>
+
+
+                <ul class="staffing-list">
 
                     <li>
-                        Business-focused technology
+                        Software Engineers
                     </li>
 
                     <li>
-                        Modern software architecture
+                        Backend Developers
                     </li>
 
                     <li>
-                        Scalable digital solutions
+                        Full Stack Developers
                     </li>
 
                     <li>
-                        Long-term technology support
+                        Java Developers
+                    </li>
+
+                    <li>
+                        Application & Technology Professionals
                     </li>
 
                 </ul>
@@ -1419,806 +2196,876 @@
             </div>
 
 
-            <div class="about-visual">
+            <div class="staffing-card highlight">
 
-                <div class="about-visual-content">
+                <h3>
+                    Manpower Support
+                </h3>
 
-                    <h3>
-                        Ideas deserve great technology.
-                    </h3>
-
-                    <p>
-                        From an initial idea to a complete digital
-                        solution, we focus on creating technology that
-                        delivers meaningful results.
-                    </p>
+                <p>
+                    We work with organizations to understand
+                    their technology requirements and support
+                    suitable talent engagement models.
+                </p>
 
 
-                    <div class="visual-grid">
+                <ul class="staffing-list">
 
-                        <div class="visual-box">
+                    <li>
+                        Project-based requirements
+                    </li>
 
-                            <strong>01</strong>
+                    <li>
+                        Technology talent requirements
+                    </li>
 
-                            <span>
-                                Understand
-                            </span>
+                    <li>
+                        Dedicated development resources
+                    </li>
 
-                        </div>
+                    <li>
+                        Flexible staffing requirements
+                    </li>
 
+                    <li>
+                        Requirement-driven talent support
+                    </li>
 
-                        <div class="visual-box">
-
-                            <strong>02</strong>
-
-                            <span>
-                                Design
-                            </span>
-
-                        </div>
-
-
-                        <div class="visual-box">
-
-                            <strong>03</strong>
-
-                            <span>
-                                Build
-                            </span>
-
-                        </div>
-
-
-                        <div class="visual-box">
-
-                            <strong>04</strong>
-
-                            <span>
-                                Scale
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </div>
+                </ul>
 
             </div>
 
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- SERVICES -->
+<!-- =========================================================
+     GLOBAL REACH
+========================================================= -->
 
-    <section class="services" id="services">
+<section
+    class="reach">
 
-        <div class="container">
+    <div class="container">
 
-            <div class="section-heading center">
 
-                <div class="section-label">
-                    Our Expertise
+        <div class="section-heading center">
+
+            <div class="section-label">
+                Global Reach
+            </div>
+
+            <h2>
+                Supporting technology requirements across markets.
+            </h2>
+
+            <p>
+                We aim to support organizations and technology
+                requirements across India and international markets.
+            </p>
+
+        </div>
+
+
+        <div class="country-grid">
+
+            <div class="country">
+                🇮🇳 India
+            </div>
+
+            <div class="country">
+                🇦🇪 UAE / Dubai
+            </div>
+
+            <div class="country">
+                🇬🇧 United Kingdom / London
+            </div>
+
+            <div class="country">
+                🇶🇦 Qatar
+            </div>
+
+            <div class="country">
+                🇯🇵 Japan
+            </div>
+
+            <div class="country">
+                🇮🇩 Indonesia
+            </div>
+
+            <div class="country">
+                🇨🇳 China
+            </div>
+
+            <div class="country">
+                🇫🇷 France
+            </div>
+
+        </div>
+
+
+        <p class="reach-note">
+
+            Our services can be structured according to
+            organizational requirements, project scope,
+            technology needs and engagement model.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     TRAINING
+========================================================= -->
+
+<section
+    class="training"
+    id="training">
+
+    <div class="container">
+
+
+        <div class="section-heading center">
+
+            <div class="section-label">
+                Developer Training & Upskilling
+            </div>
+
+            <h2>
+                Learn practical technology. Build real capability.
+            </h2>
+
+            <p>
+                We provide backend and full stack development
+                training for learners as well as working IT
+                professionals who want to strengthen or upgrade
+                their existing technology skills.
+            </p>
+
+        </div>
+
+
+        <div class="training-grid">
+
+
+            <div class="training-card">
+
+                <div class="training-icon">
+                    ☕
                 </div>
 
-                <h2>
-                    Technology solutions built for modern business.
-                </h2>
+                <h3>
+                    Backend Development
+                </h3>
 
                 <p>
-                    We help businesses turn technology challenges into
-                    practical digital solutions.
+                    Practical backend development programs covering
+                    application architecture, APIs, databases,
+                    frameworks and production-oriented concepts.
                 </p>
 
             </div>
 
 
-            <div class="services-grid">
+            <div class="training-card">
 
-
-                <div class="service-card">
-
-                    <div class="service-icon">
-                        💻
-                    </div>
-
-                    <h3>
-                        Software Development
-                    </h3>
-
-                    <p>
-                        Custom software solutions designed around your
-                        business requirements and processes.
-                    </p>
-
+                <div class="training-icon">
+                    💻
                 </div>
 
-
-                <div class="service-card">
-
-                    <div class="service-icon">
-                        🌐
-                    </div>
-
-                    <h3>
-                        Web Development
-                    </h3>
-
-                    <p>
-                        Responsive and modern websites and web applications
-                        designed for performance and usability.
-                    </p>
-
-                </div>
-
-
-                <div class="service-card">
-
-                    <div class="service-icon">
-                        📱
-                    </div>
-
-                    <h3>
-                        Application Solutions
-                    </h3>
-
-                    <p>
-                        Digital application solutions designed to improve
-                        customer experience and business operations.
-                    </p>
-
-                </div>
-
-
-                <div class="service-card">
-
-                    <div class="service-icon">
-                        ☁️
-                    </div>
-
-                    <h3>
-                        Cloud Solutions
-                    </h3>
-
-                    <p>
-                        Cloud-ready technology solutions focused on
-                        reliability, scalability and performance.
-                    </p>
-
-                </div>
-
-
-                <div class="service-card">
-
-                    <div class="service-icon">
-                        ⚙️
-                    </div>
-
-                    <h3>
-                        IT Consulting
-                    </h3>
-
-                    <p>
-                        Technology guidance to help organizations choose
-                        and implement suitable digital solutions.
-                    </p>
-
-                </div>
-
-
-                <div class="service-card">
-
-                    <div class="service-icon">
-                        🔐
-                    </div>
-
-                    <h3>
-                        Digital Transformation
-                    </h3>
-
-                    <p>
-                        Modernizing business processes through technology,
-                        automation and digital platforms.
-                    </p>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- TECHNOLOGY -->
-
-    <section class="technology" id="technology">
-
-        <div class="container">
-
-            <div class="section-heading center">
-
-                <div class="section-label">
-                    Technology
-                </div>
-
-                <h2>
-                    Modern technologies. Better solutions.
-                </h2>
+                <h3>
+                    Full Stack Development
+                </h3>
 
                 <p>
-                    Technology choices that help build reliable and
-                    scalable digital products.
+                    End-to-end development training covering
+                    frontend, backend, database, APIs, deployment
+                    and application architecture.
                 </p>
 
             </div>
 
 
-            <div class="tech-grid">
+            <div class="training-card">
 
-                <div class="tech">Java</div>
-                <div class="tech">Spring Boot</div>
-                <div class="tech">JavaScript</div>
-                <div class="tech">React</div>
-                <div class="tech">Node.js</div>
-                <div class="tech">REST APIs</div>
-                <div class="tech">Microservices</div>
-                <div class="tech">MySQL</div>
-                <div class="tech">PostgreSQL</div>
-                <div class="tech">AWS</div>
-                <div class="tech">Docker</div>
-                <div class="tech">Git</div>
-                <div class="tech">Cloud</div>
-                <div class="tech">API Integration</div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- PROCESS -->
-
-    <section class="process" id="process">
-
-        <div class="container">
-
-            <div class="section-heading center">
-
-                <div class="section-label">
-                    Our Process
+                <div class="training-icon">
+                    🚀
                 </div>
 
-                <h2>
-                    From idea to implementation.
-                </h2>
+                <h3>
+                    IT Professional Upskilling
+                </h3>
 
                 <p>
-                    A structured approach helps us build technology
-                    solutions with clarity and purpose.
+                    Existing software engineers can strengthen
+                    their practical skills and learn new
+                    technologies based on their current role
+                    and career requirements.
                 </p>
 
             </div>
 
 
-            <div class="process-grid">
+        </div>
+
+    </div>
+
+</section>
 
 
-                <div class="process-card">
+<!-- =========================================================
+     TRAINING FORMAT
+========================================================= -->
 
-                    <div class="process-number">
-                        01 / DISCOVER
-                    </div>
+<section
+    class="formats">
 
-                    <h3>
-                        Understand
-                    </h3>
-
-                    <p>
-                        We understand your business goals, challenges
-                        and technology requirements.
-                    </p>
-
-                </div>
+    <div class="container">
 
 
-                <div class="process-card">
+        <div class="section-heading center">
 
-                    <div class="process-number">
-                        02 / DESIGN
-                    </div>
-
-                    <h3>
-                        Plan
-                    </h3>
-
-                    <p>
-                        We create a clear solution approach and
-                        technology roadmap.
-                    </p>
-
-                </div>
-
-
-                <div class="process-card">
-
-                    <div class="process-number">
-                        03 / BUILD
-                    </div>
-
-                    <h3>
-                        Develop
-                    </h3>
-
-                    <p>
-                        Our focus is on clean, reliable and scalable
-                        technology implementation.
-                    </p>
-
-                </div>
-
-
-                <div class="process-card">
-
-                    <div class="process-number">
-                        04 / GROW
-                    </div>
-
-                    <h3>
-                        Scale
-                    </h3>
-
-                    <p>
-                        Solutions can evolve as your business and
-                        technology requirements grow.
-                    </p>
-
-                </div>
-
-
+            <div class="section-label">
+                Flexible Learning
             </div>
+
+            <h2>
+                Training structured around your requirement.
+            </h2>
+
+            <p>
+                Training programs can be customized based on
+                experience level, technology stack and learning goals.
+            </p>
 
         </div>
 
-    </section>
+
+        <div class="format-grid">
 
 
-    <!-- WHY DEVANTA -->
+            <div class="format-card">
 
-    <section class="why">
-
-        <div class="container">
-
-            <div class="section-heading center">
-
-                <div class="section-label">
-                    Why Devanta
-                </div>
-
-                <h2>
-                    Technology with a business mindset.
-                </h2>
-
-            </div>
-
-
-            <div class="why-grid">
-
-
-                <div class="why-card">
-
-                    <div class="why-icon">
-                        🎯
-                    </div>
-
-                    <h3>
-                        Business Focus
-                    </h3>
-
-                    <p>
-                        Technology aligned with real business objectives.
-                    </p>
-
-                </div>
-
-
-                <div class="why-card">
-
-                    <div class="why-icon">
-                        🚀
-                    </div>
-
-                    <h3>
-                        Innovation
-                    </h3>
-
-                    <p>
-                        Modern approaches for today's digital world.
-                    </p>
-
-                </div>
-
-
-                <div class="why-card">
-
-                    <div class="why-icon">
-                        📈
-                    </div>
-
-                    <h3>
-                        Scalability
-                    </h3>
-
-                    <p>
-                        Solutions designed to evolve with your business.
-                    </p>
-
-                </div>
-
-
-                <div class="why-card">
-
-                    <div class="why-icon">
-                        🤝
-                    </div>
-
-                    <h3>
-                        Partnership
-                    </h3>
-
-                    <p>
-                        We believe in building long-term technology
-                        relationships.
-                    </p>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- CTA -->
-
-    <section class="cta">
-
-        <div class="container">
-
-            <div class="cta-box">
-
-                <h2>
-                    Have a technology idea?
-                </h2>
+                <strong>
+                    One-to-One
+                </strong>
 
                 <p>
-                    Let's discuss your requirements and explore how
-                    Devanta Software can help you build the right
-                    digital solution.
-                </p>
-
-
-                <div class="cta-buttons">
-
-                    <a href="tel:+918109070293"
-                       class="btn cta-white">
-
-                        📞 Call Now
-
-                    </a>
-
-
-                    <a href="https://wa.me/918109070293"
-                       target="_blank"
-                       class="btn btn-outline">
-
-                        💬 WhatsApp Us
-
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- CONTACT -->
-
-    <section class="contact" id="contact">
-
-        <div class="container">
-
-            <div class="section-heading center">
-
-                <div class="section-label">
-                    Contact Us
-                </div>
-
-                <h2>
-                    Let's start a conversation.
-                </h2>
-
-                <p>
-                    Have a project, requirement or business idea?
-                    Get in touch with our team.
+                    Personalized learning focused on individual
+                    requirements.
                 </p>
 
             </div>
 
 
-            <div class="contact-grid">
+            <div class="format-card">
+
+                <strong>
+                    Group Training
+                </strong>
+
+                <p>
+                    Structured sessions for teams and groups.
+                </p>
+
+            </div>
 
 
-                <div class="contact-card">
+            <div class="format-card">
+
+                <strong>
+                    Corporate Upskilling
+                </strong>
+
+                <p>
+                    Technology programs aligned with organizational
+                    capability requirements.
+                </p>
+
+            </div>
 
 
-                    <div class="contact-item">
+            <div class="format-card">
 
-                        <div class="contact-icon">
-                            📞
-                        </div>
+                <strong>
+                    Customized
+                </strong>
 
-                        <div>
+                <p>
+                    Curriculum and duration based on the requirement.
+                </p>
 
-                            <strong>
-                                Phone
-                            </strong>
-
-                            <a href="tel:+918109070293">
-                                +91 81090 70293
-                            </a>
-
-                        </div>
-
-                    </div>
+            </div>
 
 
-                    <div class="contact-item">
+        </div>
 
-                        <div class="contact-icon">
-                            💬
-                        </div>
+    </div>
 
-                        <div>
-
-                            <strong>
-                                WhatsApp
-                            </strong>
-
-                            <a href="https://wa.me/918109070293"
-                               target="_blank">
-
-                                Chat with us on WhatsApp
-
-                            </a>
-
-                        </div>
-
-                    </div>
+</section>
 
 
-                    <div class="contact-item">
+<!-- =========================================================
+     TECHNOLOGY
+========================================================= -->
 
-                        <div class="contact-icon">
-                            📍
-                        </div>
+<section
+    class="technology">
 
-                        <div>
-
-                            <strong>
-                                Location
-                            </strong>
-
-                            <span>
-                                Andheri, Mumbai, Maharashtra, India
-                            </span>
-
-                        </div>
-
-                    </div>
+    <div class="container">
 
 
-                    <div class="contact-item">
+        <div class="section-heading center">
 
-                        <div class="contact-icon">
-                            🏢
-                        </div>
+            <div class="section-label">
+                Technology Expertise
+            </div>
 
-                        <div>
+            <h2>
+                Modern technology for modern engineering.
+            </h2>
 
-                            <strong>
-                                Company
-                            </strong>
-
-                            <span>
-                                Devanta Software Private Limited
-                            </span>
-
-                        </div>
-
-                    </div>
+        </div>
 
 
-                </div>
+        <div class="tech-grid">
 
+            <div class="tech">
+                Java
+            </div>
 
-                <div class="contact-action">
+            <div class="tech">
+                Spring Boot
+            </div>
 
-                    <h3>
-                        Ready to build?
-                    </h3>
+            <div class="tech">
+                Spring Framework
+            </div>
 
-                    <p>
-                        Tell us about your requirement. We would be
-                        happy to discuss your technology needs.
-                    </p>
+            <div class="tech">
+                Microservices
+            </div>
 
+            <div class="tech">
+                REST APIs
+            </div>
 
-                    <a href="https://wa.me/918109070293"
-                       target="_blank"
-                       class="btn btn-primary">
+            <div class="tech">
+                JavaScript
+            </div>
 
-                        Start WhatsApp Chat →
+            <div class="tech">
+                React
+            </div>
 
-                    </a>
+            <div class="tech">
+                Node.js
+            </div>
 
-                </div>
+            <div class="tech">
+                MySQL
+            </div>
 
+            <div class="tech">
+                PostgreSQL
+            </div>
 
+            <div class="tech">
+                AWS
+            </div>
+
+            <div class="tech">
+                Docker
+            </div>
+
+            <div class="tech">
+                Git
+            </div>
+
+            <div class="tech">
+                CI/CD
+            </div>
+
+            <div class="tech">
+                Cloud
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- FOOTER -->
+<!-- =========================================================
+     PROCESS
+========================================================= -->
 
-    <footer>
+<section
+    class="process">
 
-        <div class="container">
-
-            <div class="footer-grid">
-
-
-                <div>
-
-                    <div class="footer-logo">
-                        Devanta<span>Software</span>
-                    </div>
-
-                    <p>
-                        Technology, software and digital solutions
-                        for modern businesses.
-                    </p>
-
-                </div>
+    <div class="container">
 
 
-                <div>
+        <div class="section-heading center">
 
-                    <h4>
-                        Quick Links
-                    </h4>
-
-                    <ul class="footer-links">
-
-                        <li>
-                            <a href="#home">Home</a>
-                        </li>
-
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <div>
-
-                    <h4>
-                        Contact
-                    </h4>
-
-                    <ul class="footer-links">
-
-                        <li>
-                            <a href="tel:+918109070293">
-                                +91 81090 70293
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="https://wa.me/918109070293"
-                               target="_blank">
-                                WhatsApp
-                            </a>
-                        </li>
-
-                        <li>
-                            Andheri, Mumbai
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
+            <div class="section-label">
+                Our Approach
             </div>
 
+            <h2>
+                Understand. Build. Staff. Upskill.
+            </h2>
 
-            <div class="copyright">
-
-                © 2026 Devanta Software Private Limited.
-                All Rights Reserved.
-
-            </div>
+            <p>
+                A structured approach helps us align people,
+                technology and business requirements.
+            </p>
 
         </div>
 
-    </footer>
+
+        <div class="process-grid">
 
 
-    <!-- FLOATING WHATSAPP -->
+            <div class="process-card">
 
-    <a href="https://wa.me/918109070293"
-       target="_blank"
-       class="whatsapp"
-       aria-label="Chat on WhatsApp">
+                <div class="process-number">
+                    01 / UNDERSTAND
+                </div>
 
-        💬
+                <h3>
+                    Requirement
+                </h3>
 
-    </a>
+                <p>
+                    Understand the business, project,
+                    technology or learning requirement.
+                </p>
 
-
-    <!-- JAVASCRIPT -->
-
-    <script>
-
-        function toggleMenu() {
-
-            const menu =
-                document.getElementById("navLinks");
-
-            menu.classList.toggle("active");
-
-        }
+            </div>
 
 
-        document
-            .querySelectorAll(".nav-links a")
-            .forEach(function(link) {
+            <div class="process-card">
 
-                link.addEventListener("click", function() {
+                <div class="process-number">
+                    02 / PLAN
+                </div>
+
+                <h3>
+                    Solution
+                </h3>
+
+                <p>
+                    Define the right technology, talent,
+                    training or engagement approach.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">
+                    03 / EXECUTE
+                </div>
+
+                <h3>
+                    Delivery
+                </h3>
+
+                <p>
+                    Execute the agreed technology, staffing
+                    or training engagement.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">
+                    04 / GROW
+                </div>
+
+                <h3>
+                    Long-Term Support
+                </h3>
+
+                <p>
+                    Continue improving technology capability
+                    as requirements evolve.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section
+    class="contact"
+    id="contact">
+
+    <div class="container">
+
+
+        <div class="section-heading center">
+
+            <div class="section-label">
+                Contact Devanta
+            </div>
+
+            <h2>
+                Let's discuss your requirement.
+            </h2>
+
+            <p>
+                Contact us for software development,
+                IT staffing, manpower requirements,
+                developer training or professional upskilling.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <div class="contact-card">
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📞
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Phone
+                        </strong>
+
+                        <a href="tel:+918109070293">
+
+                            +91 81090 70293
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        💬
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            WhatsApp
+                        </strong>
+
+                        <a
+                            href="https://wa.me/918109070293"
+                            target="_blank">
+
+                            Chat with Devanta Software
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📍
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Registered / Office Address
+                        </strong>
+
+                        <span>
+
+                            2nd Floor, New Bimla CHS Ltd,
+                            A/103, Tulsibaug Rd,
+                            Dr. Charatsingh Colony,
+                            Ekta Nagar, Tarun Bharat,
+                            Andheri East,
+                            Mumbai, Maharashtra 400059
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        🏢
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Company
+                        </strong>
+
+                        <span>
+                            Devanta Software Private Limited
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="contact-action">
+
+                <h3>
+                    Looking for technology talent?
+                </h3>
+
+                <p>
+                    Discuss your IT staffing, manpower,
+                    software development or professional
+                    training requirement with our team.
+                </p>
+
+
+                <a
+                    href="https://wa.me/918109070293"
+                    target="_blank"
+                    class="btn btn-primary">
+
+                    💬 Start WhatsApp Conversation →
+
+                </a>
+
+
+                <br><br>
+
+
+                <a
+                    href="tel:+918109070293"
+                    class="btn btn-outline">
+
+                    📞 Call +91 81090 70293
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <div class="container">
+
+
+        <div class="footer-grid">
+
+
+            <div>
+
+                <div class="footer-logo">
+
+                    Devanta<span>Software</span>
+
+                </div>
+
+                <p>
+
+                    Technology solutions,
+                    IT staffing, manpower services,
+                    developer training and professional
+                    upskilling.
+
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Services
+                </h4>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#services">
+                            Software Development
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#staffing">
+                            IT Staffing
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#training">
+                            Developer Training
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#training">
+                            IT Upskilling
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Contact
+                </h4>
+
+                <ul class="footer-links">
+
+                    <li>
+
+                        <a href="tel:+918109070293">
+
+                            +91 81090 70293
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="https://wa.me/918109070293"
+                            target="_blank">
+
+                            WhatsApp
+
+                        </a>
+
+                    </li>
+
+                    <li>
+                        Andheri East, Mumbai
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 Devanta Software Private Limited.
+            All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     FLOATING WHATSAPP
+========================================================= -->
+
+<a
+    href="https://wa.me/918109070293"
+    target="_blank"
+    class="whatsapp"
+    aria-label="Chat with Devanta Software on WhatsApp">
+
+    💬
+
+</a>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script>
+
+    function toggleMenu() {
+
+        const menu =
+            document.getElementById("navLinks");
+
+        menu.classList.toggle("active");
+
+    }
+
+
+    document
+        .querySelectorAll(".nav-links a")
+        .forEach(function(link) {
+
+            link.addEventListener(
+                "click",
+                function() {
 
                     document
                         .getElementById("navLinks")
                         .classList.remove("active");
 
-                });
+                }
+            );
 
-            });
+        });
 
-    </script>
+</script>
 
 
 </body>
